@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h1>Lista de ARL</h1>
+        <h1>Lista ARL</h1>
         <a href="{{ route('arls.create') }}" class="btn btn-primary">Agregar ARL</a>
 
         <table class="table mt-4">

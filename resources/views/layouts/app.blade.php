@@ -57,7 +57,7 @@
 </head>
 
 <body>
-    <!-- Barra de navegación con Bootstrap -->
+    <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/productos') }}">Productos</a>

@@ -19,7 +19,7 @@ Route::get('/proveedores/{id}/edit', [ProveedorController::class, 'edit']);
 Route::put('/proveedores/{id}', [ProveedorController::class, 'update']);
 Route::delete('/proveedores/{id}', [ProveedorController::class, 'destroy']);
 
-// Rutas RESTful para Empleados, ARL y Usuarios (corrige el nombre a plural)
+// Rutas para Empleados, ARL y Usuarios
 Route::resource('empleados', EmpleadoController::class);
 Route::resource('arls', ArlController::class);
 Route::resource('usuarios', UsuarioController::class);
